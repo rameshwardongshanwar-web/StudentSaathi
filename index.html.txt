@@ -1,0 +1,244 @@
+
+<div class="app">
+  <nav class="navbar">
+    <a class="brand" href="#">
+      <span class="brand-icon">✦</span>
+      Student<span>Saathi</span>
+    </a>
+    <div class="nav-links">
+      <a href="#features">Features</a>
+      <a href="#planner">Study Planner</a>
+      <a href="#career">Career</a>
+    </div>
+    <a class="nav-btn" href="#planner">Get Started ↗</a>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow">
+          <span class="live-dot"></span>
+          YOUR NEXT CHAPTER STARTS HERE
+        </div>
+
+        <h1>Study smarter.<br>
+          Dream <span class="gradient-text">bigger.</span>
+        </h1>
+
+        <p class="hero-text">
+          One space for your notes, goals, assignments
+          and the future you're building.
+        </p>
+
+        <div class="hero-actions">
+          <a class="primary-btn" href="#planner">Explore your space <span>→</span></a>
+          <a class="secondary-btn" href="#features">Discover more ↓</a>
+        </div>
+
+        <div class="mini-proof">
+          <div class="avatar-stack">
+            <span>🎓</span><span>💻</span><span>📚</span>
+          </div>
+          <p><strong>Learn at your pace.</strong><br>Grow one day at a time.</p>
+        </div>
+      </div>
+
+      <div class="visual">
+        <div class="orb orb-one"></div>
+        <div class="orb orb-two"></div>
+
+        <div class="floating-tag tag-top">✦ Your goals matter</div>
+
+        <div class="dashboard-card">
+          <div class="dash-top">
+            <div>
+              <span class="muted-label">YOUR STUDY SPACE</span>
+              <h3>Today's overview</h3>
+            </div>
+            <div class="sun-icon">☀</div>
+          </div>
+
+          <div class="progress-panel">
+            <div class="progress-heading">
+              <span>Weekly progress</span><strong>72%</strong>
+            </div>
+            <div class="progress-track"><div class="progress-fill"></div></div>
+            <small>You're building a great habit ✨</small>
+          </div>
+
+          <div class="task-heading">
+            <strong>Your focus list</strong>
+            <span>DEMO TASKS</span>
+          </div>
+
+          <label class="task-item">
+            <input type="checkbox">
+            <span class="task-symbol purple">⌘</span>
+            <span class="task-name">Practice coding</span>
+            <span class="task-time">25 min</span>
+          </label>
+
+          <label class="task-item">
+            <input type="checkbox">
+            <span class="task-symbol orange">▤</span>
+            <span class="task-name">Review class notes</span>
+            <span class="task-time">20 min</span>
+          </label>
+
+          <label class="task-item">
+            <input type="checkbox">
+            <span class="task-symbol green">✎</span>
+            <span class="task-name">Finish assignment</span>
+            <span class="task-time">30 min</span>
+          </label>
+
+          <div class="dash-footer">
+            <span>🌱 Small steps, big growth</span>
+            <span>✦</span>
+          </div>
+        </div>
+
+        <div class="floating-tag tag-bottom">🚀 Keep moving forward</div>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="section-heading">
+        <span class="section-kicker">MADE FOR YOUR JOURNEY</span>
+        <h2>Everything you need to <span class="gradient-text">level up.</span></h2>
+        <p>Your college life, organised in one friendly space.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card" id="planner">
+          <div class="feature-icon purple-bg">◷</div>
+          <span class="feature-number">01 / PLAN</span>
+          <h3>Study Planner</h3>
+          <p>Organise your daily goals and turn big tasks into small wins.</p>
+          <a href="#planner" class="feature-link">Build your routine ↗</a>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon orange-bg">▤</div>
+          <span class="feature-number">02 / LEARN</span>
+          <h3>Notes Library</h3>
+          <p>Keep useful study resources and subject notes close at hand.</p>
+          <a href="#features" class="feature-link">Explore resources ↗</a>
+        </article>
+
+        <article class="feature-card" id="career">
+          <div class="feature-icon green-bg">⌘</div>
+          <span class="feature-number">03 / GROW</span>
+          <h3>Skills & Career</h3>
+          <p>Track your coding journey and prepare for future opportunities.</p>
+          <a href="#career" class="feature-link">Start growing ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="bottom-banner">
+      <div>
+        <span class="section-kicker">YOUR JOURNEY, YOUR RULES</span>
+        <h2>Small progress is still progress.</h2>
+        <p>Show up today. Thank yourself tomorrow.</p>
+      </div>
+      <a href="#planner" class="primary-btn">Let's get started →</a>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="#"><span class="brand-icon">✦</span> Student<span>Saathi</span></a>
+    <p>Made for learners. Built for possibilities.</p>
+    <span>© 2026 StudentSaathi · Student project</span>
+  </footer>
+</div>
+<section id="my-tasks">
+  <h2>My Study Tasks ✨</h2>
+  <input id="taskInput" placeholder="Enter your study task">
+  <button id="addTask">+ Add Task</button>
+  <ul id="taskList"></ul>
+</section>
+
+<section class="progress-dashboard" id="taskProgress">
+  <span class="section-kicker">YOUR PROGRESS</span>
+  <h2>You're moving forward! 🚀</h2>
+  <p class="progress-subtitle">Every small step counts.</p>
+
+  <div class="progress-cards">
+    <div class="progress-card">
+      <span class="progress-icon">📋</span>
+      <p>Total Tasks</p>
+      <h3 id="totalTaskCount">0</h3>
+    </div>
+
+    <div class="progress-card">
+      <span class="progress-icon">✅</span>
+      <p>Completed</p>
+      <h3 id="completedTaskCount">0</h3>
+    </div>
+
+    <div class="progress-card">
+      <span class="progress-icon">⏳</span>
+      <p>Pending</p>
+      <h3 id="pendingTaskCount">0</h3>
+    </div>
+  </div>
+</section>
+
+<section class="focus-timer" id="focusTimer">
+  <span class="section-kicker">FOCUS MODE</span>
+  <h2>Time to Focus! 🎯</h2>
+  <p>One session. One goal. Your best effort.</p>
+
+  <div class="timer-circle">
+    <div id="timerDisplay">30:00</div>
+    <span>MINUTES OF FOCUS</span>
+  </div>
+
+  <div class="timer-buttons">
+    <button id="startTimer">▶ Start</button>
+    <button id="pauseTimer">⏸ Pause</button>
+    <button id="resetTimer">↻ Reset</button>
+  </div>
+
+  <p id="timerMessage">Ready when you are ✨</p>
+</section>
+
+<section class="break-panel" id="breakPanel">
+  <h2>☕ Study Break</h2>
+  <p>Great work! Take a little break and refresh your mind.</p>
+
+  <div id="breakDisplay">05:00</div>
+
+  <button id="startBreak">▶ Start 5-Minute Break</button>
+  <button id="resetBreak">↻ Reset Break</button>
+
+  <p id="breakMessage">Your break is ready when you are.</p>
+</section>
+
+<section class="notes-section" id="notesSection">
+  <span class="section-kicker">YOUR KNOWLEDGE SPACE</span>
+  <h2>Smart Study Notes 📚</h2>
+  <p>Capture your ideas. Keep your learning organised.</p>
+
+  <div class="notes-form">
+    <input
+      id="noteTitle"
+      type="text"
+      placeholder="Enter note title..."
+    >
+
+    <textarea
+      id="noteContent"
+      placeholder="Write your study notes here..."
+      rows="5"
+    >/textarea>
+
+    <button id="saveNote">＋ Save Note</button>
+  </div>
+
+  <p id="notesMessage">Your notes will appear below.</p>
+  
+
+  <div id="notesList"></div>
+</section>
